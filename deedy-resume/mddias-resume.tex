@@ -1,0 +1,247 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Matthew}{Dias}{ \urlstyle{same}%\href{http://debarghyadas.com}{debarghyadas.com}| \href{http://fb.co/dd}{fb.co/dd}\\
+ 416-476-3427 | \href{mailto:mddias@uwaterloo.ca}{mddias@uwaterloo.ca}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{University of Waterloo}
+
+\descript{Honours B.Sc in Electrical Engineering}
+\location{Computer Engineering Option}
+\location{Expected April 2019 | Wateroo, ON\\ Cum. GPA: 3.7}
+
+\sectionsep % Some whitespace after the section
+
+\subsection{York University}
+
+\descript{B.Sc in Health Science}
+\location{ June 2014 | Toronto, ON}
+Dean's List (All Semesters) \\
+\location{ Cum. GPA: 3.85}
+
+\sectionsep % Some whitespace after the section
+
+\section{Coursework}
+
+Algorithms and Data Structures \\
+Analog Control Systems \\
+Electronic Circuits \\
+Semiconductor Devices \\
+
+\sectionsep % Some whitespace after the section
+
+%------------------------------------------------
+% Programming Skills
+%------------------------------------------------
+
+\section{Programming Skills}
+
+\location{Proficient:}
+\textbullet{} C \textbullet{} C++ \textbullet{} VHDL \textbullet{} Python \\
+\textbullet{} Java \textbullet{}  BASH \textbullet{} TCL \textbullet{} MATLAB \\ 
+\location{Familiar:}
+\textbullet{} Assembly \textbullet{} PostgreSQL \textbullet{} Swift \\
+\textbullet{} \LaTeX \\
+
+\sectionsep % Some whitespace after the section
+
+%------------------------------------------------
+% Tools
+%------------------------------------------------
+
+\section{Tools}
+
+\location{Software Development}
+\textbullet{} Vim \textbullet{} Visual Studio \textbullet{} Eclipse \textbullet{} Keil \\
+\textbullet{} Android Studio \textbullet{} X-Code \textbullet{} Altera Quartus \\ 
+
+\sectionsep % Some whitespace after the section
+
+\location{Design}
+\textbullet{} AutoCAD \textbullet{} Diptrace \textbullet{} Altium \\ 
+\textbullet{} Multisim \\
+
+\sectionsep % Some whitespace after the section
+
+\location{Source Control}
+\textbullet{} Git \textbullet{} SVN \\
+
+\sectionsep % Some whitespace after the section
+
+\location{Operating Systems}
+\textbullet{} Linux \textbullet{} Windows \textbullet{} OS X \textbullet{} Android \\
+
+\sectionsep % Some whitespace after the section
+
+\location{Lab Equipment}
+\textbullet{} Oscilloscopes \textbullet{} Function generators \\
+\textbullet{} Digital multimeters \textbullet{} Vector network analyzers (VNA) \\
+
+\sectionsep % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{Evertz Microsystems}
+\descript{| Hardware Design Intern }
+\location{May 2017 - Aug 2017 | Markham, ON}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Developed an application used to store data in CPLD flash memory via JTAG.
+\item Created a FUSE filesystem interface for the storage application.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Eaton}
+\descript{| Engineering Intern }
+\location{Sept 2016 -€“ Dec 2016 | Mississauga, ON}
+\begin{tightemize}
+\item Created AutoCAD drawings of lighting and sensors for Eaton's addressable lighting system.
+\item Developed VBA scripts to collect project management metrics from Basecamp.
+\item Developed a library of commands for AutoCAD using LISP to automate the process of preparing drawing exchange files for database import.
+\item Managed lighting databases using PostgreSQL queries. 
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Smith + Andersen}
+\descript{| Junior Electrical Designer }
+\location{Jan 2016 -€“ May 2016 | Toronto, ON}
+\begin{tightemize}
+\item Designed electrical systems for large infrastructure projects using AutoCAD.
+\item Assisted Project Managers in all aspects of electrical design including lighting, power distribution and life-safety systems.
+\item Calculated electrical loads, cable ampacity, circuit breaker sizes and transformer specifications based on power requirements.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXTRACURRICULAR
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Extracurricular}
+\runsubsection{University of Waterloo Robotics Team}
+\descript{| Circuit Design}
+\location{Jan 2017 -€“ Present}
+\begin{tightemize}
+\item Designed the schematics and PCB layout of various boards for the Mars rover.
+\item LTSpice simulations of circuits.
+\item Designed a power supply selector system for the battery management board.
+\item Sourced more cost-effective switch-mode power supplies and other components.
+\item Soldered and tested components.
+\end{tightemize}
+\sectionsep
+
+\section{Projects}
+\runsubsection{Teamlines}
+\descript{| Java, Python, PostgreSQL}
+\location {\href{http://github.com/Beezlie/Teamlines}{http://github.com/Beezlie/Teamlines}}
+\begin{tightemize}
+\item Developed an Android app to display up-to-date Twitter timelines of NBA, NFL and MLB teams.
+\item Used Beautiful Soup and Tweepy Python libraries to scrape sport team rosters and player information from Wikipedia and Twitter.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Retro Games}
+\descript{| C}
+\location {\href{http://github.com/Beezlie/RetroGames}{http://github.com/Beezlie/RetroGames}}
+\begin{tightemize}
+\item Designed games similar to Space Invaders and Flappy Bird for the TM4C123G microcontroller.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
