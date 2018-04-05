@@ -4,7 +4,7 @@
 % !TeX spellcheck = en
 \documentclass{resume} % Use the custom resume.cls style
 
-\usepackage[left=0.75in,top=0.5in,right=0.75in,bottom=0.5in]{geometry} % Document margins
+\usepackage[left=0.7in,top=0.45in,right=0.7in,bottom=0.45in]{geometry} % Document margins
 
 \usepackage[colorlinks=true, linkcolor=black, urlcolor=black]{hyperref}
 \usepackage{marvosym}
@@ -16,7 +16,7 @@
 	% \Letter \
 	\href{mailto:matthew.d.dias@gmail.com}{matthew.d.dias@gmail.com}\ \\
 	% $\vcenter{\hbox{\includegraphics[height=10pt]{linkedin.png}}}$
-	\href{https://www.linkedin.com/in/matthewdias}{in/matthewdias} 
+	\href{https://www.linkedin.com/in/matthewddias}{in/matthewddias} 
 }
 
 \begin{document}
@@ -30,7 +30,7 @@
 		\begin{list}{$\cdot$}{\leftmargin=1.0em}
 			\itemsep -0.5em \vspace{-0.5em}
 %			\item Industry experience with embedded systems, hardware design and scripting
-			\item Experienced with C, C++, Java, Python, BASH, TCL and VHDL			
+			\item Experienced with C/C++, Java, Python, BASH, TCL and VHDL			
 			\item Experience working with oscilloscopes, function generators, multimeters and VNAs
 		\end{list}
 		\vspace{0.5em}
@@ -43,12 +43,11 @@
 	\begin{rSection}{Work Experience}
 		\begin{rSubsection}{Evertz Microsystems}
 			{Markham, ON}
-			{Hardware Designer}
+			{Embedded Systems Developer}
 			{May -- Sept '17}
 			
-			\item Used OpenOCD to develop an application used to store data in CPLD flash memory
-		 	\item Created a FUSE filesystem interface in C for the storage application
-%			\item mention Linux environment in one of the points
+			\item Used OpenOCD to develop an application used to store files in CPLD flash memory via JTAG
+		 	\item Created a virtual file system for Linux using C to act as an interface for the storage application
 			\item VHDL based FPGA development, on-chip debugging and firmware configuration to allow for the transition from an Intel to XPliant ethernet switch
 %			\item In-system debugging of VHDL designs using Xilinx Vivado Lab software
 %			\item Integration of the system-status (physical indicators) component of a new ethernet switch in the system
@@ -71,7 +70,7 @@
 			{Junior Electrical Designer}
 			{Jan -- Apr '16}
 
-			\item Drafted AutoCAD drawings of power distribution and lightng systems, calculated electrical loads and sourced equipment for large infrastructure projects 
+			\item Drafted AutoCAD drawings of power distribution and lighting systems, calculated electrical loads and sourced equipment for large infrastructure projects 
 %			\item Designed electrical systems for large infrastructure projects using AutoCAD
 %			\item Assisted Project Managers in all aspects of electrical design including lighting, power distribution and life-safety systems.
 %			\item Calculated electrical loads, cable ampacity, circuit breaker sizes and transformer specifications based on power requirements
@@ -89,7 +88,7 @@
 			{}
 			{Jan -- Sept '17}
 
-			\item Designed the schematics and PCB layout of various boards for the Mars rover
+			\item Designed the schematics and PCB layout of various boards for the Mars rover using Diptrace
 			\item Design, LTSpice simulation and testing of voltage regulators and a power supply selector system for the battery management board
 %		 	\item LTSpice simulation of circuits
 %			\item Designed a power supply selector system for the battery management board
@@ -103,7 +102,7 @@
 			{}
 
 
-			\item Currently developing a concussion diagnostic tool on Android by using OpenCV to detect a users hands and track disparities in their motion during a simple motor test
+			\item Currently developing a concussion diagnostic tool on Android by using OpenCV to detect a user's hands and track disparities in their motion during a simple motor test
 		\end{rSubsection}	
 	\end{rSection}
 
@@ -113,17 +112,18 @@
 	
 	\begin{rSection}{Projects}
 		\begin{rSubsection}{Teamlines}
-			{\href{http://github.com/Beezlie/Teamlines}{http://github.com/Beezlie/Teamlines}}
+			{\href{https://git.io/vdUZC}{https://git.io/vdUZC}}
 			{}{}
 			
 			\item Developed an Android app to display up-to-date Twitter timelines of professional sport teams
-			\item Used Beautiful Soup and Tweepy Python libraries to scrape sport team rosters and player information from Wikipedia and Twitter
+			\item Created python scripts to scrape team rosters and player information from Wikipedia and Twitter
 		\end{rSubsection}
 		\begin{rSubsection}{Retro Games}
-			{\href{http://github.com/Beezlie/RetroGames}{http://github.com/Beezlie/RetroGames}}
+			{\href{https://git.io/vdUZE}{https://git.io/vdUZE}}
 			{}{}
 		
-			\item Designed games similar to Space Invaders and Flappy Bird for the TM4C123G microcontroller
+			\item Designed games similar to Space Invaders and Flappy Bird for the TI Tiva-C microcontroller
+			\item Wrote firmware for timers, interrupts, an ADC, a 4-bit DAC and to interface with various GPIO
 		\end{rSubsection}
 	\end{rSection}
 	

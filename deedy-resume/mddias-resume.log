@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.7.23)  17 SEP 2017 14:01
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.7.23)  23 SEP 2017 17:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -798,18 +798,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 
 ABD: EveryShipout initializing macros
 isodate: babel.sty, (n)german.sty have not been loaded
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'Raleway-ExtraLight(1)' created for font 'Raleway-ExtraLight'
-. with options [Path = fonts/raleway/].
-. 
-. This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.:
-. <->"[fonts/raleway/Raleway-ExtraLight]/OT:script=latn;language=DFLT;"
-. - 'small caps'  (m/sc) with NFSS spec.:
-. <->"[fonts/raleway/Raleway-ExtraLight]/OT:script=latn;language=DFLT;+smcp;"
-.................................................
 \g__fontspec_family_Lato-Hai_int=\count148
 .................................................
 . fontspec info: "defining-font"
@@ -876,41 +864,29 @@ LaTeX Font Warning: Font shape `EU1/Lato-Bol(0)/bx/n' undefined
 (Font)              using `EU1/Lato-Bol(0)/m/n' instead on input line 86.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 123.
+(Font)              <7> on input line 124.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 123.
-Missing character: There is no ^^80 in font [fonts/raleway/Raleway-Medium]/OT:s
-cript=latn;language=DFLT;!
-Missing character: There is no ^^93 in font [fonts/raleway/Raleway-Medium]/OT:s
-cript=latn;language=DFLT;!
-Missing character: There is no ^^80 in font [fonts/raleway/Raleway-Medium]/OT:s
-cript=latn;language=DFLT;!
-Missing character: There is no ^^93 in font [fonts/raleway/Raleway-Medium]/OT:s
-cript=latn;language=DFLT;!
-Missing character: There is no ^^80 in font [fonts/raleway/Raleway-Medium]/OT:s
-cript=latn;language=DFLT;!
-Missing character: There is no ^^93 in font [fonts/raleway/Raleway-Medium]/OT:s
-cript=latn;language=DFLT;!
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 247.
+(Font)              <5> on input line 124.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 247.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
  (./mddias-resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 247.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 247.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 253.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 253.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
  ) 
 Here is how much of TeX's memory you used:
- 22008 strings out of 495579
- 393425 string characters out of 6187322
+ 21997 strings out of 495579
+ 392910 string characters out of 6187322
  417449 words of memory out of 5000000
- 25122 multiletter control sequences out of 15000+600000
- 4280 words of font info for 50 fonts, out of 8000000 for 9000
+ 25113 multiletter control sequences out of 15000+600000
+ 4264 words of font info for 48 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  53i,11n,107p,10500b,499s stack positions out of 5000i,500n,10000p,200000b,80000s
 

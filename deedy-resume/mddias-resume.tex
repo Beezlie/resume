@@ -58,7 +58,7 @@
 %     LAST UPDATED DATE
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\lastupdated
+%\lastupdated
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -87,7 +87,7 @@
 
 \descript{Honours B.Sc in Electrical Engineering}
 \location{Computer Engineering Option}
-\location{Expected April 2019 | Wateroo, ON\\ Cum. GPA: 3.7}
+\location{Expected April 2019 | Wateroo, ON\\ Cum. GPA: 3.5}
 
 \sectionsep % Some whitespace after the section
 
@@ -96,7 +96,7 @@
 \descript{B.Sc in Health Science}
 \location{ June 2014 | Toronto, ON}
 Dean's List (All Semesters) \\
-\location{ Cum. GPA: 3.85}
+\location{ Cum. GPA: 3.8}
 
 \sectionsep % Some whitespace after the section
 
@@ -106,6 +106,7 @@ Algorithms and Data Structures \\
 Analog Control Systems \\
 Electronic Circuits \\
 Semiconductor Devices \\
+Embedded System Design \\
 
 \sectionsep % Some whitespace after the section
 
@@ -176,33 +177,31 @@ Semiconductor Devices \\
 
 \section{Experience}
 \runsubsection{Evertz Microsystems}
-\descript{| Hardware Design Intern }
+\descript{| Embedded Systems Developer}
 \location{May 2017 - Aug 2017 | Markham, ON}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Developed an application used to store data in CPLD flash memory via JTAG.
-\item Created a FUSE filesystem interface for the storage application.
+\item Used OpenOCD to develop an application to store files in CPLD flash memory
+\item Created a FUSE virtual file system for Linux using C to act as an interface for the storage application
+\item VHDL based FPGA development, on-chip debugging and firmware configuration to allow for the transition from an Intel to XPliant ethernet switch
 \end{tightemize}
 \sectionsep
 
 \runsubsection{Eaton}
 \descript{| Engineering Intern }
-\location{Sept 2016 -€“ Dec 2016 | Mississauga, ON}
+\location{Sept 2016 - December 2016 | Mississauga, ON}
 \begin{tightemize}
-\item Created AutoCAD drawings of lighting and sensors for Eaton's addressable lighting system.
-\item Developed VBA scripts to collect project management metrics from Basecamp.
-\item Developed a library of commands for AutoCAD using LISP to automate the process of preparing drawing exchange files for database import.
-\item Managed lighting databases using PostgreSQL queries. 
+\item Developed VBA scripts to collect project management metrics from Basecamp
+\item Developed a library of commands for AutoCAD using LISP to automate the process of preparing drawing exchange files for database import
+\item Managed lighting databases using PostgreSQL queries
 \end{tightemize}
 \sectionsep
 
 \runsubsection{Smith + Andersen}
 \descript{| Junior Electrical Designer }
-\location{Jan 2016 -€“ May 2016 | Toronto, ON}
+\location{Jan 2016 - May 2016 | Toronto, ON}
 \begin{tightemize}
-\item Designed electrical systems for large infrastructure projects using AutoCAD.
-\item Assisted Project Managers in all aspects of electrical design including lighting, power distribution and life-safety systems.
-\item Calculated electrical loads, cable ampacity, circuit breaker sizes and transformer specifications based on power requirements.
+\item Drafted AutoCAD drawings of power distribution and lighting systems, calculated electrical loads and sourced equipment for large infrastructure projects
 \end{tightemize}
 \sectionsep
 
@@ -211,33 +210,40 @@ Semiconductor Devices \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Extracurricular}
-\runsubsection{University of Waterloo Robotics Team}
+\runsubsection{UWaterloo Robotics Team}
 \descript{| Circuit Design}
-\location{Jan 2017 -€“ Present}
+\location{Jan 2017 - Present}
 \begin{tightemize}
-\item Designed the schematics and PCB layout of various boards for the Mars rover.
-\item LTSpice simulations of circuits.
-\item Designed a power supply selector system for the battery management board.
-\item Sourced more cost-effective switch-mode power supplies and other components.
-\item Soldered and tested components.
+\item Designed the schematics and PCB layout of various boards for the Mars rover
+\item Design, LTSpice simulation and testing of voltage regulators and a power supply selector system for the battery management board
 \end{tightemize}
 \sectionsep
 
+\runsubsection{Wearable/Heathcare Devices Lab}
+\descript{| Research Assistant}
+\location{Sept 2017 - Present}
+\begin{tightemize}
+\item Currently developing a concussion diagnostic tool on Android by using OpenCV to detect a user's hands and track disparities in their motion during a simple motor test
+\end{tightemize}
+\sectionsep
+
+
 \section{Projects}
 \runsubsection{Teamlines}
-\descript{| Java, Python, PostgreSQL}
-\location {\href{http://github.com/Beezlie/Teamlines}{http://github.com/Beezlie/Teamlines}}
+\descript{| Java, Python}
+\location {\href{https://git.io/vdUZC}{https://git.io/vdUZC}}
 \begin{tightemize}
-\item Developed an Android app to display up-to-date Twitter timelines of NBA, NFL and MLB teams.
-\item Used Beautiful Soup and Tweepy Python libraries to scrape sport team rosters and player information from Wikipedia and Twitter.
+\item Developed an Android app to display up-to-date Twitter timelines of professional sport teams
+\item Created python scripts to scrape sport team rosters and player information from Wikipedia and Twitter
 \end{tightemize}
 \sectionsep
 
 \runsubsection{Retro Games}
 \descript{| C}
-\location {\href{http://github.com/Beezlie/RetroGames}{http://github.com/Beezlie/RetroGames}}
+\location {\href{https://git.io/vdUZE}{https://git.io/vdUZE}}
 \begin{tightemize}
-\item Designed games similar to Space Invaders and Flappy Bird for the TM4C123G microcontroller.
+\item Designed games similar to Space Invaders and Flappy Bird for the TI Tiva-C microcontroller
+\item Wrote firmware for timers, interrupts, an ADC, a 4-bit DAC and to interface with various GPIO such as LEDs and an LCD
 \end{tightemize}
 \sectionsep
 
