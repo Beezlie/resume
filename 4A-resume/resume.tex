@@ -1,0 +1,144 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+% !TeX spellcheck = en
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.7in,top=0.45in,right=0.7in,bottom=0.45in]{geometry} % Document margins
+
+\usepackage[colorlinks=true, linkcolor=black, urlcolor=black]{hyperref}
+\usepackage{marvosym}
+\usepackage{graphicx}
+
+\name{Matthew Dias}
+\address {% \Mundus \
+	\href{https://github.com/Beezlie}{github.com/matthewdias} \\
+	% \Letter \
+	\href{mailto:matthew.d.dias@gmail.com}{matthew.d.dias@gmail.com}\ \\
+	% $\vcenter{\hbox{\includegraphics[height=10pt]{linkedin.png}}}$
+	\href{https://www.linkedin.com/in/matthewddias}{in/matthewddias} 
+}
+
+\begin{document}
+	
+	%----------------------------------------------------------------------------------------
+	%	SUMMARY SECTION
+	%----------------------------------------------------------------------------------------
+	
+	\begin{rSection}{Summary}
+		\vspace {0.5em}
+		\begin{list}{$\cdot$}{\leftmargin=1.0em}
+			\itemsep -0.5em \vspace{-0.5em}
+%			\item Industry experience with embedded systems, hardware design and scripting
+			\item Experienced with C/C++, Python, Java, BASH, TCL and VHDL			
+			\item Experience working with oscilloscopes, function generators, multimeters and VNAs
+		\end{list}
+		\vspace{0.5em}
+	\end{rSection}
+	
+	%----------------------------------------------------------------------------------------
+	% WORK EXPERIENCE SECTION
+	%----------------------------------------------------------------------------------------
+	
+	\begin{rSection}{Work Experience}
+		\begin{rSubsection}{NVIDIA}
+			{Santa Clara, CA}
+			{Systems Software Engineering}
+			{Jan -- April '18}
+			
+			\item Worked on features of the DriveIX C++ Driver Monitoring SDK such as driver gaze mapping, calibration and ...
+            \item Designed a client application for the Raspberry Pi that used Google Protobufs to communicate with the DriveIX server and controlled mirrors, locks, windows and other vehicle hardware
+            \item Used Python OpenCV to design user interfaces for vehicle dsplays that showed driver monitoring status   
+%			\item In-system debugging of VHDL designs using Xilinx Vivado Lab software
+%			\item Integration of the system-status (physical indicators) component of a new ethernet switch in the system
+%			\item Implemented all aspects of the project including design approach, VHDL based FPGA development, on-chip debugging using Vivado and firmware integration
+		\end{rSubsection}
+		
+        \begin{rSubsection}{Evertz Microsystems}
+			{Markham, ON}
+			{Embedded Systems Developer}
+			{May -- Sept '17}
+			
+			\item Used OpenOCD to develop an application used to store files in CPLD flash memory via JTAG
+		 	\item Created a virtual file system for Linux using C to act as an interface for the storage application
+			\item VHDL based FPGA development, on-chip debugging and firmware configuration to allow for the transition from an Intel to XPliant ethernet switch
+%			\item In-system debugging of VHDL designs using Xilinx Vivado Lab software
+%			\item Integration of the system-status (physical indicators) component of a new ethernet switch in the system
+%			\item Implemented all aspects of the project including design approach, VHDL based FPGA development, on-chip debugging using Vivado and firmware integration
+		\end{rSubsection}
+		
+		\begin{rSubsection}{Eaton}
+			{Mississauga, ON}
+			{Engineering Intern}
+			{Sept -- Dec '16}
+			
+%			\item Created AutoCAD drawings of lighting and sensors for Eaton's addressable lighting system.
+			\item Developed VBA scripts to collect project management metrics from Basecamp
+			\item Developed a library of commands for AutoCAD using LISP to automate the process of preparing drawing exchange files for database import, saving 3 hours per file
+			\item Managed lighting control device databases using PostgreSQL queries
+		\end{rSubsection}
+		
+	\end{rSection}
+
+	%----------------------------------------------------------------------------------------
+	% EXTRACURRICULAR SECTION
+	%----------------------------------------------------------------------------------------
+	
+	\begin{rSection}{Extracurricular}
+	
+		\begin{rSubsection}{UW Robotics Team}
+			{}
+			{}
+			{Jan -- Sept '17}
+
+			\item Designed the schematics and PCB layout of various boards for the Mars rover using Diptrace
+			\item Design, LTSpice simulation and testing of voltage regulators and a power supply selector system for the battery management board
+%		 	\item LTSpice simulation of circuits
+%			\item Designed a power supply selector system for the battery management board
+%			\item Sourced more cost-effective switch-mode power supplies and CAN transceievers
+
+		\end{rSubsection}
+
+		\begin{rSubsection}{Research}			
+			{}
+			{}
+			{}
+
+			\item Worked with the UWaterloo Biomedical Systems Research Group on developing a concussion diagnostic tool for Android
+            \item Used OpenCV to detect a user's hands and track disparities in their motion during a simple motor test
+            \item Able to process frames in real time or from a video recording
+		\end{rSubsection}	
+	\end{rSection}
+
+	%----------------------------------------------------------------------------------------
+	%	PROJECTS SECTION
+	%----------------------------------------------------------------------------------------
+	
+	\begin{rSection}{Projects}
+		\begin{rSubsection}{Teamlines}
+			{\href{https://git.io/vdUZC}{https://git.io/vdUZC}}
+			{}{}
+			
+			\item Developed an Android app to display up-to-date Twitter timelines of professional sport teams
+			\item Created python scripts to scrape team rosters and player information from Wikipedia and Twitter
+		\end{rSubsection}
+		\begin{rSubsection}{Retro Games}
+			{\href{https://git.io/vdUZE}{https://git.io/vdUZE}}
+			{}{}
+		
+			\item Designed games similar to Space Invaders and Flappy Bird for the TI Tiva-C microcontroller
+			\item Wrote firmware for timers, interrupts, an ADC, a 4-bit DAC and to interface with various GPIO
+		\end{rSubsection}
+	\end{rSection}
+	
+	%----------------------------------------------------------------------------------------
+	%	EDUCATION SECTION
+	%----------------------------------------------------------------------------------------
+	
+	\begin{rSection}{Education}
+		{\bf University of Waterloo} \hfill {Sept '14 -- Apr '19 \em (expected)} \\
+		{\em Honours Bachelor of Applied Science in Electrical Engineering} \hfill {\em GPA 3.5}
+		\vspace{0.5em}
+	\end{rSection}
+	
+\end{document}
