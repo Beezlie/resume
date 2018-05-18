@@ -11,12 +11,14 @@
 \usepackage{graphicx}
 
 \name{Matthew Dias}
-\address {% \Mundus \
-	\href{https://github.com/Beezlie}{github.com/matthewdias} \\
-	% \Letter \
-	\href{mailto:matthew.d.dias@gmail.com}{matthew.d.dias@gmail.com}\ \\
-	% $\vcenter{\hbox{\includegraphics[height=10pt]{linkedin.png}}}$
-	\href{https://www.linkedin.com/in/matthewddias}{in/matthewddias} 
+\address { $\vcenter{\hbox{\includegraphics[height=10pt]{github.png}}}$
+          \href{https://github.com/Beezlie}{matthewdias} \\
+          $\vcenter{\hbox{\includegraphics[height=10pt]{email.png}}}$
+          \href{mailto:matthew.d.dias@gmail.com}{matthew.d.dias@gmail.com}\ \\
+          $\vcenter{\hbox{\includegraphics[height=10pt]{linkedin.png}}}$
+          \href{https://www.linkedin.com/in/matthewddias}{matthewddias} \\
+          $\vcenter{\hbox{\includegraphics[height=10pt]{phone.png}}}$
+          \href{tel:4164763427}{(416) 476-3427}
 }
 
 \begin{document}
@@ -29,9 +31,9 @@
 		\vspace {0.5em}
 		\begin{list}{$\cdot$}{\leftmargin=1.0em}
 			\itemsep -0.5em \vspace{-0.5em}
-%			\item Industry experience with embedded systems, hardware design and scripting
-			\item Experienced with C/C++, Python, Java, BASH, TCL and VHDL			
-			\item Experience working with oscilloscopes, function generators, multimeters and VNAs
+			\item Industry experience with embedded systems, systems software and computer vision
+			\item Experience in C, C++, Python, Java, MATLAB, BASH, TCL and VHDL			
+%			\item Experience working with oscilloscopes, function generators, multimeters and VNAs
 		\end{list}
 		\vspace{0.5em}
 	\end{rSection}
@@ -46,9 +48,13 @@
 			{Systems Software Engineering}
 			{Jan -- April '18}
 			
-			\item Worked on features of the DriveIX C++ Driver Monitoring SDK such as driver gaze mapping, calibration and ...
-            \item Designed a client application for the Raspberry Pi that used Google Protobufs to communicate with the DriveIX server and controlled mirrors, locks, windows and other vehicle hardware
-            \item Used Python OpenCV to design user interfaces for vehicle dsplays that showed driver monitoring status   
+%			\item Worked on features of the DriveIX SDK such as driver gaze mapping, calibration and ...
+%			\item Worked on features of the DriveIX image processing pipeline such as gesture detection, faceID and gaze tracking
+        \item \textbf{Worked on DriveIX image processing features such as gesture detection, faceID and gaze tracking}
+        \item \textbf{Designed Python and C++ client applications for the DriveIX server using Google Protobufs for data serialization}
+            \item Created a driver monitoring UI for in-vehicle displays using PyQt
+            \item \textbf{Developed a Raspberry Pi application to allow DriveIX to control a vehicle's mirrors, locks, and windows}
+            \item Automated the collection of voice recording, gaze and head position data for neural network training
 %			\item In-system debugging of VHDL designs using Xilinx Vivado Lab software
 %			\item Integration of the system-status (physical indicators) component of a new ethernet switch in the system
 %			\item Implemented all aspects of the project including design approach, VHDL based FPGA development, on-chip debugging using Vivado and firmware integration
@@ -56,7 +62,7 @@
 		
         \begin{rSubsection}{Evertz Microsystems}
 			{Markham, ON}
-			{Embedded Systems Developer}
+			{Embedded Software Developer}
 			{May -- Sept '17}
 			
 			\item Used OpenOCD to develop an application used to store files in CPLD flash memory via JTAG
@@ -74,7 +80,7 @@
 			
 %			\item Created AutoCAD drawings of lighting and sensors for Eaton's addressable lighting system.
 			\item Developed VBA scripts to collect project management metrics from Basecamp
-			\item Developed a library of commands for AutoCAD using LISP to automate the process of preparing drawing exchange files for database import, saving 3 hours per file
+			\item Created a library of commands for AutoCAD using LISP, which automated the process of preparing drawing exchange files for database import, saving 3 hours per file
 			\item Managed lighting control device databases using PostgreSQL queries
 		\end{rSubsection}
 		
@@ -86,27 +92,21 @@
 	
 	\begin{rSection}{Extracurricular}
 	
-		\begin{rSubsection}{UW Robotics Team}
-			{}
-			{}
-			{Jan -- Sept '17}
+%		\begin{rSubsection}{UW Robotics Team}
+%			{}
+%			{}
+%			{Jan -- Sept '17}
+%
+%			\item Designed the schematics and PCB layout of various boards for the Mars rover using Diptrace
+%			\item Designed, tested and simulated voltage regulators and a power supply selector system for the battery management board
+%		\end{rSubsection}
 
-			\item Designed the schematics and PCB layout of various boards for the Mars rover using Diptrace
-			\item Design, LTSpice simulation and testing of voltage regulators and a power supply selector system for the battery management board
-%		 	\item LTSpice simulation of circuits
-%			\item Designed a power supply selector system for the battery management board
-%			\item Sourced more cost-effective switch-mode power supplies and CAN transceievers
+		\begin{rSubsection}{UWaterloo Biomedical Systems Research Group}			
+            {\href{https://git.io/vxDDR}{git.io/vxDDR}}
+			{}{}
 
-		\end{rSubsection}
-
-		\begin{rSubsection}{Research}			
-			{}
-			{}
-			{}
-
-			\item Worked with the UWaterloo Biomedical Systems Research Group on developing a concussion diagnostic tool for Android
-            \item Used OpenCV to detect a user's hands and track disparities in their motion during a simple motor test
-            \item Able to process frames in real time or from a video recording
+            \item Created an Android application that used computer vision to attempt to diagnose concussions
+            \item Used OpenCV to detect a user's hands and track disparities in their motion using optical flow
 		\end{rSubsection}	
 	\end{rSection}
 
@@ -116,14 +116,14 @@
 	
 	\begin{rSection}{Projects}
 		\begin{rSubsection}{Teamlines}
-			{\href{https://git.io/vdUZC}{https://git.io/vdUZC}}
+			{\href{https://git.io/vdUZC}{git.io/vdUZC}}
 			{}{}
 			
 			\item Developed an Android app to display up-to-date Twitter timelines of professional sport teams
 			\item Created python scripts to scrape team rosters and player information from Wikipedia and Twitter
 		\end{rSubsection}
 		\begin{rSubsection}{Retro Games}
-			{\href{https://git.io/vdUZE}{https://git.io/vdUZE}}
+			{\href{https://git.io/vdUZE}{git.io/vdUZE}}
 			{}{}
 		
 			\item Designed games similar to Space Invaders and Flappy Bird for the TI Tiva-C microcontroller
