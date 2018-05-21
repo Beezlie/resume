@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.26)  17 MAY 2018 09:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.26)  21 MAY 2018 13:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -241,14 +241,14 @@ LaTeX Font Info:    ... okay on input line 24.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(50.58878pt, 513.11745pt, 50.58878pt)
+* h-part:(L,W,R)=(46.97505pt, 520.3449pt, 46.97505pt)
 * v-part:(T,H,B)=(32.52127pt, 729.92744pt, 32.52127pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=513.11745pt
+* \textwidth=520.3449pt
 * \textheight=729.92744pt
-* \oddsidemargin=-21.68121pt
-* \evensidemargin=-21.68121pt
+* \oddsidemargin=-25.29494pt
+* \evensidemargin=-25.29494pt
 * \topmargin=-76.74872pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -357,25 +357,24 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 34.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./github.png> <./email.png
 > <./linkedin.png> <./phone.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
- [2]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 144.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 144.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 144.
  ) 
 Here is how much of TeX's memory you used:
- 6136 strings out of 494953
- 87918 string characters out of 6180977
- 175142 words of memory out of 5000000
+ 6135 strings out of 494953
+ 87912 string characters out of 6180977
+ 174140 words of memory out of 5000000
  9375 multiletter control sequences out of 15000+600000
  12194 words of font info for 31 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,8n,23p,184b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,8n,23p,184b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/matt/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/ma
 tt/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/matt/.texmf-va
 r/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/matt/.texmf-var/fonts/pk/l
@@ -383,10 +382,10 @@ jfour/jknappen/ec/eccc1200.600pk> </home/matt/.texmf-var/fonts/pk/ljfour/jknapp
 en/ec/ecrm1000.600pk> </home/matt/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecxc20
 74.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb>
-Output written on resume.pdf (2 pages, 105007 bytes).
+Output written on resume.pdf (1 page, 101831 bytes).
 PDF statistics:
- 267 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
+ 254 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
+ 2 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
