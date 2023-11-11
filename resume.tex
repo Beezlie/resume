@@ -4,19 +4,23 @@
 % !TeX spellcheck = en
 \documentclass{resume} % Use the custom resume.cls style
 
-\usepackage[left=0.7in,top=0.45in,right=0.7in,bottom=0.45in]{geometry} % Document margins
+\usepackage[left=0.65in,top=0.45in,right=0.65in,bottom=0.45in]{geometry} % Document margins
 
 \usepackage[colorlinks=true, linkcolor=black, urlcolor=black]{hyperref}
 \usepackage{marvosym}
 \usepackage{graphicx}
 
+\newcommand{\imagepath}{resources/images}
+
 \name{Matthew Dias}
-\address {% \Mundus \
-	\href{https://github.com/Beezlie}{github.com/matthewdias} \\
-	% \Letter \
-	\href{mailto:matthew.d.dias@gmail.com}{matthew.d.dias@gmail.com}\ \\
-	% $\vcenter{\hbox{\includegraphics[height=10pt]{linkedin.png}}}$
-	\href{https://www.linkedin.com/in/matthewddias}{in/matthewddias} 
+\address { $\vcenter{\hbox{\includegraphics[height=10pt]{\imagepath/github.png}}}$
+          \href{https://github.com/Beezlie}{matthewdias} \\
+          $\vcenter{\hbox{\includegraphics[height=10pt]{\imagepath/email.png}}}$
+          \href{mailto:matthew.d.dias@gmail.com}{matthew.d.dias@gmail.com}\ \\
+          $\vcenter{\hbox{\includegraphics[height=10pt]{\imagepath/linkedin.png}}}$
+          \href{https://www.linkedin.com/in/matthewddias}{matthewddias} \\
+          $\vcenter{\hbox{\includegraphics[height=10pt]{\imagepath/phone.png}}}$
+          \href{tel:4164763427}{(416) 476-3427}
 }
 
 \begin{document}
@@ -29,9 +33,9 @@
 		\vspace {0.5em}
 		\begin{list}{$\cdot$}{\leftmargin=1.0em}
 			\itemsep -0.5em \vspace{-0.5em}
-%			\item Industry experience with embedded systems, hardware design and scripting
-			\item Experienced with C/C++, Java, Python, BASH, TCL and VHDL			
-			\item Experience working with oscilloscopes, function generators, multimeters and VNAs
+			\item Industry experience with embedded systems, systems software and computer vision
+			\item Experience in C, C++, Python, Java, MATLAB, BASH, TCL and VHDL			
+%			\item Experience working with oscilloscopes, function generators, multimeters and VNAs
 		\end{list}
 		\vspace{0.5em}
 	\end{rSection}
@@ -41,9 +45,26 @@
 	%----------------------------------------------------------------------------------------
 	
 	\begin{rSection}{Work Experience}
-		\begin{rSubsection}{Evertz Microsystems}
+		\begin{rSubsection}{NVIDIA}
+			{Santa Clara, CA}
+			{Systems Software Engineering}
+			{Jan -- April '18}
+			
+%			\item Worked on features of the DriveIX SDK such as driver gaze mapping, calibration and ...
+%			\item Worked on features of the DriveIX image processing pipeline such as gesture detection, faceID and gaze tracking
+            \item Integrated new features in the gesture detection, faceID and gaze tracking image processing pipelines
+            \item Designed Python and C++ client applications for the DriveIX server using Google Protobufs
+            \item Created a driver monitoring UI for in-vehicle displays using PyQt
+            \item Developed a Raspberry Pi app to allow DriveIX to control a vehicle's mirrors, locks, and windows
+            \item Automated the collection of voice recording, gaze and head position data for neural network training
+%			\item In-system debugging of VHDL designs using Xilinx Vivado Lab software
+%			\item Integration of the system-status (physical indicators) component of a new ethernet switch in the system
+%			\item Implemented all aspects of the project including design approach, VHDL based FPGA development, on-chip debugging using Vivado and firmware integration
+		\end{rSubsection}
+		
+        \begin{rSubsection}{Evertz Microsystems}
 			{Markham, ON}
-			{Embedded Systems Developer}
+			{Embedded Software Developer}
 			{May -- Sept '17}
 			
 			\item Used OpenOCD to develop an application used to store files in CPLD flash memory via JTAG
@@ -61,20 +82,10 @@
 			
 %			\item Created AutoCAD drawings of lighting and sensors for Eaton's addressable lighting system.
 			\item Developed VBA scripts to collect project management metrics from Basecamp
-			\item Developed a library of commands for AutoCAD using LISP to automate the process of preparing drawing exchange files for database import, saving 3 hours per file
+			\item Created a library of commands for AutoCAD using LISP, which automated the process of preparing drawing exchange files for database import, saving 3 hours per file
 			\item Managed lighting control device databases using PostgreSQL queries
 		\end{rSubsection}
 		
-		\begin{rSubsection}{Smith + Andersen}
-			{Toronto, ON}
-			{Junior Electrical Designer}
-			{Jan -- Apr '16}
-
-			\item Drafted AutoCAD drawings of power distribution and lighting systems, calculated electrical loads and sourced equipment for large infrastructure projects 
-%			\item Designed electrical systems for large infrastructure projects using AutoCAD
-%			\item Assisted Project Managers in all aspects of electrical design including lighting, power distribution and life-safety systems.
-%			\item Calculated electrical loads, cable ampacity, circuit breaker sizes and transformer specifications based on power requirements
-		\end{rSubsection}
 	\end{rSection}
 
 	%----------------------------------------------------------------------------------------
@@ -83,26 +94,21 @@
 	
 	\begin{rSection}{Extracurricular}
 	
-		\begin{rSubsection}{UW Robotics Team}
-			{}
-			{}
-			{Jan -- Sept '17}
+%		\begin{rSubsection}{UW Robotics Team}
+%			{}
+%			{}
+%			{Jan -- Sept '17}
+%
+%			\item Designed the schematics and PCB layout of various boards for the Mars rover using Diptrace
+%			\item Designed, tested and simulated voltage regulators and a power supply selector system for the battery management board
+%		\end{rSubsection}
 
-			\item Designed the schematics and PCB layout of various boards for the Mars rover using Diptrace
-			\item Design, LTSpice simulation and testing of voltage regulators and a power supply selector system for the battery management board
-%		 	\item LTSpice simulation of circuits
-%			\item Designed a power supply selector system for the battery management board
-%			\item Sourced more cost-effective switch-mode power supplies and CAN transceievers
+		\begin{rSubsection}{UWaterloo Biomedical Systems Research Group}			
+            {\href{https://git.io/vxDDR}{git.io/vxDDR}}
+			{}{}
 
-		\end{rSubsection}
-
-		\begin{rSubsection}{Research}			
-			{}
-			{}
-			{}
-
-
-			\item Currently developing a concussion diagnostic tool on Android by using OpenCV to detect a user's hands and track disparities in their motion during a simple motor test
+            \item Created an Android application that used computer vision to attempt to diagnose concussions
+            \item Used OpenCV to detect a user's hands and track disparities in their motion using optical flow
 		\end{rSubsection}	
 	\end{rSection}
 
@@ -112,14 +118,14 @@
 	
 	\begin{rSection}{Projects}
 		\begin{rSubsection}{Teamlines}
-			{\href{https://git.io/vdUZC}{https://git.io/vdUZC}}
+			{\href{https://git.io/vdUZC}{git.io/vdUZC}}
 			{}{}
 			
 			\item Developed an Android app to display up-to-date Twitter timelines of professional sport teams
 			\item Created python scripts to scrape team rosters and player information from Wikipedia and Twitter
 		\end{rSubsection}
 		\begin{rSubsection}{Retro Games}
-			{\href{https://git.io/vdUZE}{https://git.io/vdUZE}}
+			{\href{https://git.io/vdUZE}{git.io/vdUZE}}
 			{}{}
 		
 			\item Designed games similar to Space Invaders and Flappy Bird for the TI Tiva-C microcontroller
